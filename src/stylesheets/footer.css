@@ -1,0 +1,39 @@
+#footerSection{
+    display: flex;
+    flex-direction: column;
+    background: #03294F;
+}
+
+.footerLinkLists{
+    flex: 1;
+    display: flex
+}
+
+.footerLinkLists ul{
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   flex-basis: 25%
+}
+
+.contactUsList li{
+    font-family: Arial;
+    font-size: 15.5px;
+    line-height: 18px;
+    align-items: center;
+    color: #FFFFFF;
+    padding-bottom: 10px
+}
+.contactUsList li svg{
+    padding-right: 10px
+}
+
+.iconRow{
+    flex: 1;
+    display: flex
+}
+
+.copyRight{
+    flex: 1;
+    display: flex
+}

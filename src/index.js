@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './stylesheets/main.css'
+import './stylesheets/propertyInvestor.css'
 import './stylesheets/navbar.css'
 import './stylesheets/banner.css'
 import './stylesheets/managementPartners.css'
 import './stylesheets/currentJobOpenings.css'
+import './stylesheets/footer.css'
 import Main from './components/Main';
 import * as serviceWorker from './serviceWorker';
 

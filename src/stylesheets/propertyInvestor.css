@@ -1,0 +1,19 @@
+#propertyInvest{
+    display: flex;
+    padding-right: 105px;
+    padding-left: 105px;
+    background: #0A345F;
+}
+
+.propertyTitle{
+    margin: auto;
+    font-family: Libre Caslon Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

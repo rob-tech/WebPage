@@ -3,6 +3,8 @@ import NavBar from "./NavBar";
 import Banner from './Banner'
 import ManagementPartners from './ManagementPartners'
 import CurrentJobOpenings from './CurrentJobOpenings'
+import PropertyInvestor from './PropertyInvestor'
+import Footer from './Footer'
 
 class Main extends Component {
   state = {};
@@ -14,17 +16,8 @@ class Main extends Component {
           <Banner/>
           <ManagementPartners/>
           <CurrentJobOpenings/>
-{/* 
-
-          <div id="part4">
-            <p>hello</p>
-          </div>
-          <div id="part5">
-            <p>hello</p>
-          </div>
-          <div id="part6">
-            <p>hello</p>
-          </div> */}
+          <PropertyInvestor/>
+          <Footer/>
       </div>
       </>
     );
