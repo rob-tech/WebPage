@@ -26,8 +26,6 @@
 #centeredLinks ul li a {
   text-decoration: none;
   font-family: Helvetica Neue;
-  font-size: 14px;
-  line-height: 17px;
   color: #0a345f !important;
 }
 
@@ -48,22 +46,10 @@
 
 #loginLinks ul li a {
   text-decoration: none;
-  font-family: Helvetica Neue;
-  font-size: 14px;
-  line-height: 17px;
+  font-family: Helvetica;
   color: #0a345f !important;
 }
 
-#loginLinks ul li:last-child a {
-  text-decoration: none;
-  font-family: Helvetica Neue;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff !important;
-
-  border-radius: 1px;
-}
-
 #loginLinks ul li:last-child {
-  background: #174d85;
+ padding-top: 0px !important
 }

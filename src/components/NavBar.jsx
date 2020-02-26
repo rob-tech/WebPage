@@ -48,7 +48,9 @@ class NavBar extends Component {
                 <a href="news.asp">LOGIN</a>
               </li>
               <li>
-                <a href="contact.asp">REGISTER</a>
+              <div className="webButton">
+                <button>REGISTER</button>
+               </div>
               </li>
             </ul>
           </div>

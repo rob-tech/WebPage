@@ -1,0 +1,53 @@
+#jobOpeningsSection{
+    display: flex;
+    padding-right: 115px;
+    padding-left: 105px;
+    padding-top: 100px;
+    background: 
+ 
+}
+
+.jobOpeningsDesc{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.jobOpeningsBigText{
+    font-family: Libre Caslon Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 110%;
+    color: #0A345F;
+  }
+
+  .jobOpeningsParText{
+    font-family: Libre Caslon Display;
+    line-height: 110%;
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
+
+
+.webButton button{
+    width: 200px;
+    height: 55px;
+    left: 240px;
+    bottom: 792px;
+    background: #174D85;
+    border-radius: 1px;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.officeImage{
+    flex: 1;
+    background: url("https://s3-alpha-sig.figma.com/img/a156/10f8/73e4979cfd3ec991677b60c225251880?Expires=1583712000&Signature=FMy6YB9vPcILbr4FVT96hY8BjZ-b5TECvKmzmz1njQZkZHPDSx~9BEhYhioxWxXsmojERRGSiB6qzNdp0rjtAQlh1YZ8CR48sxG5DSLEMbgqIiIX2tZLBPAU~0-frdqFo3NEam5zEvwGY6KL9FekQt5Co1htpNiKJKTkaWRNMTIiEb6a5P0gyQoHM-yceSn4y7XtQP47hgpfDoEFcS41U8C~ZqXPpaVa2ENTCpwWP9zRKDwxLzYYIK7cpl0R-XGp0UA1MxLKobh5wHrXd2lBQmIXAGTKoNAvS0dAPs53GVH0eP0gvHi4i2~hL~Amm-vRlFjy~tJhb64BOiPH2oK8Zg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA") top center no-repeat;
+    background-size:100% 100%;
+}

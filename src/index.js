@@ -4,6 +4,8 @@ import './index.css';
 import './stylesheets/main.css'
 import './stylesheets/navbar.css'
 import './stylesheets/banner.css'
+import './stylesheets/managementPartners.css'
+import './stylesheets/currentJobOpenings.css'
 import Main from './components/Main';
 import * as serviceWorker from './serviceWorker';
 

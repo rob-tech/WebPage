@@ -24,17 +24,16 @@
       display: flex;
       flex-direction: column;
       background-color:  #0A345F;
-      height: 500px;
+      /* height: 500px; */
   }
 
   .mainAboutUs{
       display: flex;
       flex: 1;
-      /* justify-content: center */
   }
 
   .aboutUsText{
-    flex-basis: 60%;
+    flex-basis: 65%;
     margin: auto;
     font-family: Libre Caslon Display;
     font-style: normal;
@@ -43,11 +42,26 @@
     line-height: 110%;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 70px
+    padding-top: 100px
   }
 
   .otherAboutUs{
     flex: 1;
-    display: flex
+    display: flex;
+    flex-direction: row;
+    justify-content: center
   }
+
+  .otherDesc{
+    flex-basis: 30%;
+    font-family: Helvetica;
+    /* line-height: 150%; */
+    color: rgba(255, 255, 255, 0.8);
+    margin-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px
+    /* justify-content: flex-start */
+  }
+
+
   
