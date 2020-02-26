@@ -1,0 +1,69 @@
+#navBar {
+  display: flex;
+  /* height: 80px */
+}
+
+#centeredLinks {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+}
+
+#centeredLinks ul {
+  /* flex: 1; */
+  display: flex;
+  list-style: none;
+}
+
+#centeredLinks ul li {
+  padding: 20px;
+}
+
+#centeredLinks ul svg{
+    padding-top: 5px
+}
+
+#centeredLinks ul li a {
+  text-decoration: none;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0a345f !important;
+}
+
+#loginLinks {
+  display: flex;
+  flex: 1;
+}
+
+#loginLinks ul {
+  /* flex: 1; */
+  display: flex;
+  list-style: none;
+}
+
+#loginLinks ul li {
+  padding: 20px;
+}
+
+#loginLinks ul li a {
+  text-decoration: none;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0a345f !important;
+}
+
+#loginLinks ul li:last-child a {
+  text-decoration: none;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff !important;
+
+  border-radius: 1px;
+}
+
+#loginLinks ul li:last-child {
+  background: #174d85;
+}
