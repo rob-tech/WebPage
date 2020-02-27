@@ -3,6 +3,7 @@
     padding-right: 105px;
     padding-left: 105px;
     background: #0A345F;
+    flex-wrap: wrap;
 }
 
 .propertyTitle{
@@ -17,3 +18,4 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+

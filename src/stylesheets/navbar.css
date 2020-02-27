@@ -3,6 +3,42 @@
   /* height: 80px */
 }
 
+@media screen and (max-width: 768px) {
+  #navBar {
+    flex-wrap: wrap;
+  }
+
+  #centeredLinks ul {
+    justify-content: center;
+    flex: 1;
+    margin-bottom: 0;
+    padding-left: 0px;
+  }
+  #loginLinks ul {
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #navBar {
+    flex-wrap: wrap
+  }
+
+  #centeredLinks ul {
+   flex-wrap: wrap
+  }
+  #centeredLinks ul svg {
+    padding: 20px;
+    justify-content: center;
+  }
+  #loginLinks ul {
+    padding-left: 0px
+  }
+}
+
 #centeredLinks {
   display: flex;
   flex: 2;
@@ -19,8 +55,8 @@
   padding: 20px;
 }
 
-#centeredLinks ul svg{
-    padding-top: 5px
+#centeredLinks ul svg {
+  padding-top: 5px;
 }
 
 #centeredLinks ul li a {
@@ -51,6 +87,6 @@
 }
 
 #loginLinks ul li:last-child {
- padding-top: 10px !important;
- padding-bottom: 0px
+  padding-top: 10px !important;
+  padding-bottom: 0px;
 }

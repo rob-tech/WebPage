@@ -3,8 +3,22 @@
     padding-right: 115px;
     padding-left: 105px;
     background: #F8F9FA;
+    flex-wrap:wrap;
     /* padding-bottom: 100px */
  
+}
+
+@media screen and (max-width: 768px) {
+  #jobOpeningsSection {
+     padding: 0px;
+  }
+  .officeImage{
+    display: none
+}
+
+.jobOpeningsDesc{
+  text-align: center;
+}
 }
 
 .jobOpeningsDesc{
@@ -12,7 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 30px
+  padding: 30px;
 
 }
 
